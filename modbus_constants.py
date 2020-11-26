@@ -1,0 +1,2 @@
+BIG_ENDIAN = b'>'
+LITTLE_ENDIAN = b'<'
