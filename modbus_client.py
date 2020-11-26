@@ -1,7 +1,7 @@
 from serial import Serial
 import struct
 
-from modbus_message import ReadCoilMessageBuilder, ReadHoldingRegisterMessageBuilder, ReadInputRegisterMessageBuilder
+from modbus_message import ReadCoilStatusMessageBuilder, ReadHoldingRegisterMessageBuilder, ReadInputRegisterMessageBuilder
 from modbus_response import ReadCoilStatusResponse, ReadHoldingRegistersResponse, ReadInputRegistersResponse
 
 class ModbusClient:
